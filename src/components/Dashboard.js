@@ -4,7 +4,7 @@ import './Dashboard.css'
 import {getWeatherBackground} from './WeatherBackground'
 import {handleUnitToggle} from './UnitToggle'
 function Dashboard() {
-  const [city, setCity] = useState('Ahmedabad');
+  const [city, setCity] = useState('Amsterdam');
   const [weatherData, setWeatherData] = useState(null);
   const [unit, setUnit] = useState('metric'); // 'metric' for Celsius, 'imperial' for Fahrenheit
   const [error, setError] = useState(null);
